@@ -30,11 +30,8 @@ class DataList extends Component {
         console.log(albums.length)
 		return (
             <div>
-<<<<<<< HEAD
                 {/* List of ALBUMS */}
-=======
-//                 List of ALBUMS
->>>>>>> dd0b35abf815ae4d5e7cadcf0e145d4c0de9b98c
+                 List of ALBUMS
                 {
                     albums.map(a => <div key = {a.id} > {a.name} {a.album_type} {a.type}</div>)
                 }
